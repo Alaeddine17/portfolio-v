@@ -19,6 +19,6 @@ You can set up this project locally by following these steps:
 
 Using HTTPS
 git clone : https://github.com/Alaeddine17/portfolio-v.git <br>
-cd portfolio
-npm install
+cd portfolio <br>
+npm install <br>
 npm run dev
