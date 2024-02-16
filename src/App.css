@@ -1,0 +1,8 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&display=swap');
+
+:root{
+    --bg-dark :    #2C2929;
+    --bg-darkest : #111010;
+    --font-family-para : 'Lato', sans-serif;
+}
