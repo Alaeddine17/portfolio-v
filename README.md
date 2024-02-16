@@ -14,7 +14,7 @@ React-Router-Dom: Handles seamless navigation throughout the site.
 ## 📜 License
 This project is open-source under the MIT License.
 
-🛠️ Local Setup
+## 🛠️ Local Setup
 You can set up this project locally by following these steps:
 
 Using HTTPS
