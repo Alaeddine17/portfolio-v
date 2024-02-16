@@ -18,7 +18,7 @@ This project is open-source under the MIT License.
 You can set up this project locally by following these steps:
 
 Using HTTPS
-git clone : https://github.com/Alaeddine17/portfolio-v.git
+git clone : https://github.com/Alaeddine17/portfolio-v.git <br>
 cd portfolio
 npm install
 npm run dev
