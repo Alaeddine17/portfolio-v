@@ -19,7 +19,6 @@ import blog from "../assets/blog.png"
 import play from "../assets/play.png"
 import portfolio from "../assets/portfolio.png"
 
-
 import { SiPhp } from "react-icons/si";
 import { TiHtml5 } from "react-icons/ti";
 import { FaCss3Alt } from "react-icons/fa";
@@ -39,7 +38,7 @@ const ProData = [
     {key : '03', logo1 : <SiVisualbasic/> ,logo2 : <SiMicrosoftaccess/>, logo3 : <SiCrystal/>, logo4 : '', logo5 : '', logo6 : '',lang1 : 'visual basic.NET',lang2 : 'Microsoft Access', lang3 : 'crystal report', lang4 : '', lang5 : '', lang6 : '', img : cabinet ,title : 'Medical office Management System', paragra : 'Software that manages the information systems of a medical office.'},
     {key : '04', logo1 : <FaLaravel/>,logo2 : <SiPhp/>, logo3 : <SiTailwindcss/>, logo4 : '', logo5 : '', logo6 : <SiMysql/>,lang1 : 'Laravel',lang2 : 'php', lang3 : 'tailwindcss', lang4 : '', lang5 : '', lang6 : 'mysql', img : blog ,title : 'Blogs Hub', paragra : 'A user-friendly platform for writing blog posts and sharing content effortlessly.'},
     {key : '05', logo1 : <FaReact/>,logo2 : <FaCss3Alt/>, logo3 : <SiTailwindcss/>, logo4 : <SiJson/>, logo5 : '', logo6 : '',lang1 : 'reactJs',lang2 : 'css', lang3 : 'talwindcss', lang4 : 'json', lang5 : '', lang6 : '', img : play ,title : 'LetsPlay', paragra : 'A video game discovery platform'},
-    {key : '06', logo1 : <FaReact/>,logo2 : <FaCss3Alt/>, logo3 : <SiTailwindcss/>, logo4 : <SiJson/>, logo5 : '', logo6 : '',lang1 : 'reactJs',lang2 : 'css', lang3 : 'talwindcss', lang4 : 'json', lang5 : '', lang6 : '', img : portfolio ,title : 'Portfolio'},
+    {key : '06', logo1 : <FaReact/>,logo2 : <FaCss3Alt/>, logo3 : <SiTailwindcss/>, logo4 : <SiJson/>, logo5 : '', logo6 : '',lang1 : 'reactJs',lang2 : 'css', lang3 : 'talwindcss', lang4 : 'json', lang5 : '', lang6 : '', img : portfolio,title : 'Portfolio'},
 ]
 
 

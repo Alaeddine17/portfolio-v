@@ -1,5 +1,5 @@
 import './Hero.css';
-import photo from '../../assets/profile.png';
+import photo from '../../assets/profile2.png';
 import { ButtonYellow, ButtonDark, Container } from '../../component/index';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
