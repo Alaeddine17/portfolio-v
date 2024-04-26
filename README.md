@@ -25,9 +25,10 @@ npm run dev
 
 ## portfolio preview
 
-![git-portfolio-1](https://github.com/Alaeddine17/portfolio-v/assets/71473009/c2dd60f1-e19d-4388-93c9-af7ef5988783)<br>
+![git-port-1](https://github.com/Alaeddine17/portfolio-v/assets/71473009/ea1b7535-cfc5-4c30-bf2b-c964ad020296) <br>
 
-![git-portfolio-mobile-1](https://github.com/Alaeddine17/portfolio-v/assets/71473009/7e8a1aa3-825b-4f53-87a8-ee4d469a0fc3)<br>
+![git-port-2](https://github.com/Alaeddine17/portfolio-v/assets/71473009/039d5db7-cb42-4415-82ca-23210a10e0ae) <br>
+
 
 ![git-portfolio-3](https://github.com/Alaeddine17/portfolio-v/assets/71473009/57b4a71b-245b-418a-a250-a1c11750c57c)
 
