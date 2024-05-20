@@ -14,7 +14,7 @@ React-Router-Dom: Handles seamless navigation throughout the site.
 ## 📜 License
 This project is open-source under the MIT License.
 
-##🛠️ Local Setup
+## 🛠️ Local Setup
 You can set up this project locally by following these steps:
 
 Using HTTPS
@@ -22,3 +22,15 @@ git clone : https://github.com/Alaeddine17/portfolio-v.git <br>
 cd portfolio <br>
 npm install <br>
 npm run dev
+
+## portfolio preview
+
+![git-port-1](https://github.com/Alaeddine17/portfolio-v/assets/71473009/ea1b7535-cfc5-4c30-bf2b-c964ad020296) <br>
+
+![git-port-2](https://github.com/Alaeddine17/portfolio-v/assets/71473009/039d5db7-cb42-4415-82ca-23210a10e0ae) <br>
+
+
+![git-portfolio-3](https://github.com/Alaeddine17/portfolio-v/assets/71473009/57b4a71b-245b-418a-a250-a1c11750c57c)
+
+
+
