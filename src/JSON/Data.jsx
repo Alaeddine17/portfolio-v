@@ -64,46 +64,52 @@ const Data = {
         {key : "14", tech : 'Access', logo : access},
     ]
     }
-
+//Administrative Human Resources Officer
     const ExperDb = [
         {
             key   : '01',
+            date  : '21.02.2024',
+            title : 'Employment | Atlentic Blue Berries Morocco',
+            parag : 'Administrative Human Resources Agent'
+        },
+        {
+            key   : '02',
             date  : '06.04.2023',
             title : 'Employment | Atlentic Blue Berries Morocco',
             parag : 'Data Entry Agent'
         },  
         {
-            key   : '02',
+            key   : '03',
             date  : '01.06.2022',
             title : 'Internship | RADEEL Larache',
             parag : 'Informatique Technicien in the Human Resources Service'
         },
         {
-            key   : '03',
+            key   : '04',
             date  : '06.06.2021',
             title : 'Internship | Anapec Larache',
             parag : 'Informatique Technicien'
         },
         {
-            key   : '04',
+            key   : '05',
             date  : '07.06.2019',
             title : 'Internship | Larache Municipality',
             parag : 'Informatique Technicien, Division of Works Service'
         },
         {
-            key   : '05',
+            key   : '06',
             date  : '07.07.2018',
             title : 'Employment | Seasonal job at Civil Protection Morocco | Lifeguard',
             parag : 'Lifeguard'
         },
         {
-            key   : '06',
+            key   : '07',
             date  : '07.03.2021',
             title : 'Internship | Lixus Beach Resort',
             parag : 'Hotel Receptionist'
         },
         {
-            key   : '07',
+            key   : '08',
             date  : '07.01.2016',
             title : 'Internship | Larache Municipality',
             parag : 'Lighting Maintenance'

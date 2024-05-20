@@ -1,8 +1,35 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+import { Link } from 'react-router-dom';
 import "./Contact.css";
 import {Container, Title, ButtonYellow} from "../../component/index";
 import { CiMail } from "react-icons/ci";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Contact = () =>{
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_pq94m8b', 'template_hgahoqd', form.current, {
+        publicKey: 'zOGC2PegUnoCYmP9G',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          window.location="Contact"
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
+
+
     return(
     <>
         <Container>
@@ -26,28 +53,28 @@ const Contact = () =>{
                         <h2 className="text-lg font-extrabold">Socials</h2>
                         <ul className="flex mt-3 space-x-4">
                             <li className="text-3xl">
-                                <a href="#">
+                                <Link to="https://www.linkedin.com/in/alae-eddine-elharrak-5a8b01175">
                                     <FaLinkedin/>
-                                </a>
+                                </Link>
                             </li>
                             <li className="text-3xl">
-                                <a href="#">
+                                <Link to="https://github.com/Alaeddine17/Alaeddine17">
                                     <FaGithub/>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
                 </div>
-              
-                <form className="space-y-4">
+                
+                <form ref={form} onSubmit={sendEmail} className="space-y-4">
                     <input type='text' placeholder='Name'
-                        className="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-200" />
+                        name="user_name" className="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-200" />
                     <input type='email' placeholder='Email'
-                        className="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-200" />
+                        name="user_email" className="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-200" />
                     <input type='text' placeholder='Subject'
-                        className="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-200" />
+                        name="subject"className="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-200" />
                     <textarea placeholder='Message' rows="6"
-                        className="w-full rounded-md px-4 border text-sm pt-2.5 outline-yellow-200"></textarea>
+                        name="message" className="w-full rounded-md px-4 border text-sm pt-2.5 outline-yellow-200"></textarea>
                     <ButtonYellow>Send</ButtonYellow>
                 </form>
             </div>
