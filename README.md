@@ -5,11 +5,11 @@ portfolio-v repository is a dynamic project designed to present my professional 
 This site has been meticulously designed to ensure an optimal viewing experience across devices. For a quick peek into the mobile navigation.
 
 ## 🔧 Built With
-React: A powerful library for building UI components.
-Vite: A blazing fast frontend build tool, making the development process a breeze.
-Tailwind CSS: A utility-first CSS framework for rapidly building modern user interfaces.
-EmailJS: Ensures that anyone reaching out through the contact form gets their messages delivered directly to my inbox. (... It is being worked on ...).
-React-Router-Dom: Handles seamless navigation throughout the site.
+-React: A powerful library for building UI components.<br/>
+-Vite: A blazing fast frontend build tool, making the development process a breeze.<br/>
+-Tailwind CSS: A utility-first CSS framework for rapidly building modern user interfaces.<br/>
+-EmailJS: Ensures that anyone reaching out through the contact form gets their messages delivered directly to my inbox. (... It is being worked on ...).<br/>
+-React-Router-Dom: Handles seamless navigation throughout the site.
 
 ## 📜 License
 This project is open-source under the MIT License.
